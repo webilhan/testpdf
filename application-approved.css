@@ -126,9 +126,6 @@ li li li{
 }
 
 @page {
-    margin: 50px 30px 50px 30px;
-    font-size: 16px;
-
     @top-center {
         content: element(header, last-except);
     }
