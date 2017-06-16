@@ -5,6 +5,10 @@ body, html{
     font-family: Calibri, Arial, sans-serif;
 }
 
+body{
+    padding-top: 100px;
+}
+
 .clearfix:after{
   content: "";
   display: table;
@@ -132,7 +136,7 @@ li li li{
 }
 
 @page {
-    margin: 50px 30px 20px 30px;
+    margin: 2cm 3px 2cm 5cm;
     font-size: 16px;
 
     @bottom-right {
