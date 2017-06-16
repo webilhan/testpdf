@@ -125,6 +125,10 @@ li li{
     padding: 0.7em;
 }
 
+.w50{
+    width: 50%;
+}
+
 @page {
     margin: 50px 30px 50px 30px;
     font-size: 16px;
