@@ -12,7 +12,6 @@ body, html{
 }
 
 .header{
-    padding-bottom:  2em;
     position: fixed;
     top: 0;
     left: 0;
@@ -132,7 +131,7 @@ li li li{
 }
 
 @page {
-    margin: 50px 30px 20px 30px;
+    margin: 150px 30px 20px 30px;
     font-size: 16px;
 
     @top-center {
