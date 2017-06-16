@@ -125,9 +125,11 @@ li li{
     padding: 0.7em;
 }
 
-.w50{
-    width: 50%;
-}
+.w25{width: 25%;}
+.w30{width: 30%;}
+.w35{width: 35%;}
+.w50{width: 50%;}
+.w70{width: 70%;}
 
 @page {
     margin: 50px 30px 50px 30px;
