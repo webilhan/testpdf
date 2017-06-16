@@ -12,9 +12,7 @@ body, html{
 }
 
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
+    padding-bottom:  2em;
 }
 
 .header .logo{
@@ -41,10 +39,6 @@ body, html{
     line-height: 1em;
     max-width: 90%;
     margin: 0.5em auto 0 auto;
-}
-
-.main-content{
-    margin-top: 150px;
 }
 
 .permit-number{
@@ -131,16 +125,20 @@ li li li{
 }
 
 @page {
-    margin: 150px 30px 20px 30px;
+    margin: 50px 30px 50px 30px;
     font-size: 16px;
 
     @top-center {
-        height: 80px;
+        content: element(header, last-except);
     }
 
-
     @bottom-right {
-        content: counter(page) " of " counter(pages)
+        content: counter(page) " of " counter(pages);
     }
 }
 
+@media print {
+    #header {
+        position: running(header);
+    }
+}
