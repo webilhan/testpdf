@@ -5,10 +5,6 @@ body, html{
     font-family: Calibri, Arial, sans-serif;
 }
 
-body{
-    padding-top: 100px;
-}
-
 .clearfix:after{
   content: "";
   display: table;
@@ -136,8 +132,13 @@ li li li{
 }
 
 @page {
-    margin: 2cm 3px 2cm 5cm;
+    margin: 50px 30px 20px 30px;
     font-size: 16px;
+
+    @top-center {
+        height: 80px;
+    }
+
 
     @bottom-right {
         content: counter(page) " of " counter(pages)
