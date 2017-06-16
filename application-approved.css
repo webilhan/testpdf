@@ -44,6 +44,10 @@ body, html{
     margin: 0.5em auto 0 auto;
 }
 
+.main-content{
+    margin-top: 150px;
+}
+
 .permit-number{
     text-align: right;
     margin: 2em 0;
@@ -128,7 +132,7 @@ li li li{
 }
 
 @page {
-    margin: 150px 30px;
+    margin: 50px 30px 20px 30px;
     font-size: 16px;
 
     @bottom-right {
