@@ -124,19 +124,3 @@ li li li{
     border-top: 0;
     padding: 0.5em;
 }
-
-@page {
-    @top-center {
-        content: element(header, last-except);
-    }
-
-    @bottom-right {
-        content: counter(page) " of " counter(pages);
-    }
-}
-
-@media print {
-    #header {
-        position: running(header);
-    }
-}
