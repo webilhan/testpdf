@@ -13,6 +13,9 @@ body, html{
 
 .header{
     padding-bottom:  2em;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header .logo{
@@ -127,4 +130,14 @@ li li li{
 @page {
     margin: 50px 30px;
     font-size: 16px;
+
+     @top-left {
+        content: element(pageHeader);
+    }
+}
+
+@media print {
+    #divHeader{
+        position: running(pageHeader);
+    }
 }
