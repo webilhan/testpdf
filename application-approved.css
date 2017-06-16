@@ -98,7 +98,8 @@ table td td{
 .note{
     color: red;
     font-style: italic;
-    padding: 1em 0 1em 2em;
+    padding: 1em 0 1em 1em;
+    line-height: normal;
 }
 
 ol ul, ul ul{
