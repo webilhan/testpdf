@@ -128,16 +128,11 @@ li li li{
 }
 
 @page {
-    margin: 50px 30px;
+    margin: 150px 30px;
     font-size: 16px;
 
-     @top-left {
-        content: element(pageHeader);
+    @bottom-right {
+        content: counter(page) " of " counter(pages)
     }
 }
 
-@media print {
-    #divHeader{
-        position: running(pageHeader);
-    }
-}
