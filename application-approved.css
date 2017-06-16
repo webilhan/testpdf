@@ -108,19 +108,24 @@ ol ul, ul ul{
 }
 
 li{
-    padding: 0.5em 0;
-}
-
-li li{
     padding: 0.3em 0;
 }
 
-li li li{
-    padding: 0.1em 0;
+li li{
+    padding: 0.2em 0;
 }
 
 .bordered-box{
     border: 1px solid #000000;
     border-top: 0;
     padding: 0.5em;
+}
+
+@page {
+    margin: 50px 30px 50px 30px;
+    font-size: 16px;
+
+    @bottom-right {
+        content: counter(page) " of " counter(pages);
+    }
 }
