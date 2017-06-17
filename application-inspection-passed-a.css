@@ -9,11 +9,25 @@ body{
     word-spacing: 0.1em;
 }
 
+h1{
+    font-size: 2em;
+    margin: 0;
+}
+
+h2{
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+}
+
 table{
     border-collapse: collapse;
     margin: 0 0 20px 0;
     padding: 0;
     width: 100%;
+}
+
+table + table{
+    margin-top: 40px;
 }
 
 table tbody td, table th{
@@ -23,8 +37,8 @@ table tbody td, table th{
     font-size: 0.9em;
 }
 
-table  thead th{
-    font-size: 1.5em;
+table thead th{
+    font-size: 1em;
 }
 
 table tbody th{
@@ -43,6 +57,11 @@ li{
 .bordered-box{
     border: 1px solid #000000;
     padding: 0.7em;
+}
+
+.p1{
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 @page {
